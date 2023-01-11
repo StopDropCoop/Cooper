@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Signup Test</title>
+</head>
+<body>
+    <h1>Firestore Signup Basics</h1>
+    
+    <h2>Register for Cooper!</h2>
+    <form class="signup">
+        <label for="email">Name:</label>
+        <input type="text" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="text" name="password" required>
+        <br>
+        <label for="confirmation">Confirm Password:</label>
+        <input type="text" name="confirmation" required>
+        <br>
+        <label for="seeker">Job Seeker</label>
+        <input type="checkbox" name="seeker">
+        <br>
+        <label for="poster">Job Poster</label>
+        <input type="checkbox" name="poster">
+        <br>
+        <br>
+
+        <button>Register</button>
+    </form>
+
+    <h2>Delete your account!</h2>
+    <form class="deleteAccount">
+        <label for="email">Email:</label>
+        <input type="text" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="text" name="password" required>
+        <br>
+        <label for="confirmation">Confirm Password:</label>
+        <input type="text" name="confirmation" required>
+        <br>
+        <br>
+
+        <button>Delete</button>
+    </form>
+
+    <div id="feedback"></div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
