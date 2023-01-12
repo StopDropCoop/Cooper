@@ -2,13 +2,15 @@ const path = require('path')
 
 module.exports = {
     mode: 'development',
-    entry: './js/index.js',
+    entry: {
+        bundle: ['./js/index.js', '../Cooper-Website/js/script.js']
+    },
     // experiments: {
     //     topLevelAwait: true
     // },
     output: {
         path: path.join(__dirname, '..', 'Cooper-Website', 'js'),
-        filename: 'bundle.js'
+        filename: '[name].js'
     },
     watch: true
 }
