@@ -7,7 +7,7 @@ module.exports = {
     //     topLevelAwait: true
     // },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.join(__dirname, '..', 'Cooper-Website'),
         filename: 'bundle.js'
     },
     watch: true
